@@ -1,0 +1,44 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Backend specific
+backend/.env
+backend/.env.*
+backend/main
+backend/nul
+backend/*.log
+backend/node_modules/
+backend/brevo-email/node_modules/
+
+# Firebase service account keys and configuration files
+**/firebase-adminsdk-*.json
+**/serviceAccountKey.json
+**/google-services.json
+**/GoogleService-Info.plist
+app/google-services.json
+
+# IDE and OS files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.cache
+*.pid
+*.seed
+*.pid.lock
