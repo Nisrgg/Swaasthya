@@ -1,0 +1,169 @@
+%-------------------------
+% Resume in Latex
+% Author : Nisarg Gajjar
+% Tailored for SDE Role
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+% Ensure that generated PDF is ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \small#3 & \small#4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Nisarg Gajjar} \\ \vspace{1pt}
+    \small +91-7016801458 $|$ \href{mailto:nisargg705@gmail.com}{\underline{nisargg705@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/nisargg705/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/Nisrgg}{\underline{GitHub}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {VIT Bhopal University}{Sehore, MP}
+      {Bachelor of Technology in Computer Science and Engineering; CGPA: 9.04/10.0}
+      {Aug 2022 – Aug 2026}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\resumeItemListStart
+  \resumeItem{\textbf{Programming Languages}: C++, Go (Golang), Kotlin, Python}
+  \resumeItem{\textbf{Frameworks \& Tools}: Jetpack Compose, Retrofit, Hilt, Gin, Scrapy, Docker, Chi, sqlc}
+  \resumeItem{\textbf{Databases}: PostgreSQL, SQL, Firebase Firestore}
+  \resumeItem{\textbf{Other}: REST APIs, Firebase Authentication, MVVM Architecture, Material Design 3, Data Cleaning (Pandas, NumPy)}
+\resumeItemListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\resumeItemListStart
+  \resumeItem{GitHub Foundation}
+  \resumeItem{Oracle Certified - Data Platform 2025 Foundations Associate}
+  \resumeItem{Meta Certified - Android Developer Professional}
+\resumeItemListEnd
+
+
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Jio Platforms Limited}{Sept 2024 – Nov 2024}
+    {Office Seat Occupancy Detection System $|$ \href{https://github.com/Nisrgg/Office-Seat-Occupancy-Detection}{\underline{GitHub}}}{}
+    \resumeItemListStart
+      \resumeItem{Developed a comprehensive data science system using Python, OpenCV, and YOLOv5 for real-time office seat occupancy detection and analysis with high accuracy.}
+      \resumeItem{Implemented modular architecture with configuration management, statistical analysis engine, and automated reporting capabilities, significantly reducing manual monitoring effort.}
+      \resumeItem{Built interactive data visualization dashboards and Jupyter notebooks for occupancy pattern analysis, generating actionable insights for space optimization.}
+      \resumeItem{Designed comprehensive test suite with pytest, implemented CLI interface, and created professional documentation following software engineering best practices.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Swaasthya - Hospital Management System} $|$ \emph{Kotlin, Go, PostgreSQL, Firebase Auth, Jetpack Compose} $|$ \href{https://github.com/Nisrgg/Swaasthya}{\underline{GitHub}}}{}
+    \resumeItemListStart
+      \resumeItem{Developed a full-stack healthcare management system with Android app (Kotlin/Jetpack Compose) and Go backend API, serving patients, doctors, and hospital staff with secure authentication and role-based access.}
+      \resumeItem{Implemented RESTful API using Go/Gin framework with PostgreSQL database, Firebase JWT authentication, Docker containerization, and comprehensive CRUD operations for appointments and doctor management.}
+      \resumeItem{Built modern Android UI with Material Design 3, MVVM architecture using Hilt dependency injection, Retrofit for API integration, and secure configuration management with environment variables.}
+      \resumeItem{Designed responsive doctor listing with search/filter capabilities, appointment booking system, and comprehensive security measures including network security configuration and proper secret management.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{RSSync - RSS Feed Aggregator} $|$ \emph{Go (Golang), PostgreSQL, Docker, Chi, sqlc} $|$ \href{https://github.com/Nisrgg/RSSync}{\underline{GitHub}}}{}
+    \resumeItemListStart
+      \resumeItem{Developed a scalable RESTful API in Go using the Chi router for managing users, feeds, and subscriptions, leveraging sqlc for type-safe database interactions.}
+      \resumeItem{Engineered a concurrent background worker to periodically scrape RSS/Atom feeds, parse XML content, and store posts in a PostgreSQL database.}
+      \resumeItem{Containerized the database using Docker for reproducible environments and implemented secure, stateful API key-based authentication middleware.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------ACADEMIC & COMPETITIVE CODING-----------
+\section{Academic \& Competitive Coding}
+\resumeItemListStart
+  \resumeItem{Achieved \textbf{Top 1\%} rank in NPTEL Cloud Computing (24,000+ students).}
+  \resumeItem{Solved 150+ coding problems on LeetCode, strengthening proficiency in DSA and algorithms.}
+\resumeItemListEnd
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Co-Curricular Activities}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+  {Treasurer}{Aug 2024 – Jan 2025}
+  {Bashcraft Club}{Campus}
+  \resumeItemListStart
+    \resumeItem{Spearheaded strategic planning and execution of high-impact technical events, including ideathons with 300+participants to promote innovation and collaboration.}
+  \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\end{document}
